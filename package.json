@@ -1,0 +1,27 @@
+{
+  "name": "math-combination",
+  "version": "1.0.0",
+  "description": "数学组合/math-combination module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/likegun/math-combination.git"
+  },
+  "keywords": [
+    "math",
+    "combination"
+  ],
+  "author": "王如锵",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/likegun/math-combination/issues"
+  },
+  "homepage": "https://github.com/likegun/math-combination",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "lodash": "^3.10.1"
+  }
+}
