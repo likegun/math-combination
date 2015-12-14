@@ -13,7 +13,11 @@
 	//Get all conditions that conbine two element of the the arr(different order same condition and element can repeat)
 	combination.cmnWithRepetition(arr, 2)
 
+--- 
+
+### Note
+Only support for array of String or Number
+
 ---
 
 ### See [test](https://github.com/likegun/math-combination/blob/master/test/index.js) for more details
-
