@@ -51,7 +51,7 @@ module.exports.cmn = function cmn(array, n) {
  * @param  {Int} n   选出n个元素组合
  * @return {Array}   所有组合的情况 
  */
-module.exports.cmnWithRepetition = function cmn2(array, n) {
+module.exports.cmnWithRepetition = function cmnWithRepetition(array, n) {
 	check(array, n);
 	if (n === 1)
 		return array.map(function (e) {
@@ -59,7 +59,7 @@ module.exports.cmnWithRepetition = function cmn2(array, n) {
 		});
 	var results = [];
 	array.forEach(function (num, index) {
-		cmn2(array, n - 1).forEach(function (e) {
+		cmnWithRepetition(array, n - 1).forEach(function (e) {
 			e.unshift(num);
 			var exist = _.find(results, function (result) {
 				return compareArray(result.slice(0), e.slice(0));
